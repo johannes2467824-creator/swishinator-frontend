@@ -1,0 +1,9 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#09141f"><title>Swishinator | Private Access</title><link rel="stylesheet" href="/style.css"></head>
+<body><main><div class="brand"><span class="logo">S</span><span>SWISHINATOR <span class="pill">PRIVATE BETA</span></span></div>
+<section class="card"><h1>Welcome to Swishinator 💚</h1><p>Invite-only access to a fictional payment simulator. No real payments or money transfers.</p>
+<div class="tabs"><button id="tab-login" class="active" type="button">Sign in</button><button id="tab-register" type="button">Create account</button></div>
+<form id="login-form"><label for="login-user">Username</label><input id="login-user" name="username" autocomplete="username" required maxlength="24"><label for="login-pass">Password</label><input id="login-pass" name="password" type="password" autocomplete="current-password" required><button class="full">Sign in</button></form>
+<form id="register-form" class="hidden"><label for="register-code">Your private invitation code</label><input id="register-code" name="code" placeholder="SWI-XXXXX-..." autocomplete="off" required><label for="register-user">Choose a username</label><input id="register-user" name="username" autocomplete="username" minlength="3" maxlength="24" pattern="[a-zA-Z0-9_]+" required><label for="register-pass">Create a password (12+ characters)</label><input id="register-pass" name="password" type="password" autocomplete="new-password" minlength="12" required><button class="full">Create account</button></form>
+<p class="msg" id="message" role="status" aria-live="polite"></p></section>
+<p class="small">Need an invitation? Contact the Swishinator administrator. Codes can only be used once. If you change browsers or phones, request a device transfer from staff.</p>
+</main><script src="/login.js" defer></script></body></html>
